@@ -1,11 +1,8 @@
 import { useState } from "react";
-import Container from "./Container/Container";
+import { usePrevious } from "./CustomHooks/usePrevious";
+import IncrementCounter from "./ReactQuestions/IncrementCounter";
 function App() {
-  return (
-    <>
-     
-    </>
-  );
+  return <IncrementCounter />;
 }
 
 export default App;
